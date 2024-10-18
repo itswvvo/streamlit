@@ -2,8 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+pip install openpyxl
+
 df = pd.read_excel('Kopie van 241017 Export beste keuzes Amsterdam (geanonimiseerd).xlsx')
 df
+
+
 
 # if st.checkbox('Show dataframe'):
 #     chart_data = pd.DataFrame(
