@@ -19,3 +19,5 @@ if st.checkbox('Show raw data'):
 
 # Streamlit bar chart (without x and stack arguments)
 st.bar_chart(school_counts)
+
+st.title('Leerlingen in ODB')
